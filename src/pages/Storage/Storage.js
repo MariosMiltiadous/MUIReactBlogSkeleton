@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Storage = () => {
-    return (
-        <div style={{marginLeft: '500px'}}>
-            This is storage page.
-        </div>
-=======
 import React, { useState, useEffect } from 'react'
 import GridWrapper from '../../components/common/GridWrapper/GridWrapper'
 import BasicSnackbar from '../../components/common/BasicSnackbar/BasicSnackbar';
@@ -35,7 +26,6 @@ const Storage = () => {
           onClose={handleClose}
         />
       </GridWrapper>
->>>>>>> c40efda (lesson-10 - add error snackbar)
     )
 }
 
